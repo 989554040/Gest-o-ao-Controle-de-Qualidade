@@ -25,6 +25,14 @@ Implementar uma funcionalidade essencial de um sistema, utilizando um CRUD (Crea
 - Python 3 instalado
 - Biblioteca Flask
 
+* Mudança de Escopo
+
+Foi adicionada a funcionalidade de **prioridade das tarefas**, permitindo classificar cada tarefa como Alta, Média ou Baixa.  
+Essa mudança melhora a organização das tarefas e o gerenciamento do backlog.
+
+Commit correspondente: `feat: adicionar campo de prioridade às tarefas para gestão de mudança`
+
+
 * Execução
 1. Clone o repositório:
  Para executar o sistema localmente, utilize o comando:
