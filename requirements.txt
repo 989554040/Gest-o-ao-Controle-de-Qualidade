@@ -1,0 +1,2 @@
+flask
+Adiciona arquivo requirements.txt
