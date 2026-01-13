@@ -31,11 +31,17 @@ Implementar uma funcionalidade essencial de um sistema, utilizando um CRUD (Crea
 bash
 python app.py
 
-
-
-
 * Organização do Projeto (Kanban)
 O Kanban foi criado na aba Projects do repositório, utilizando metodologia ágil para organização das atividades, com colunas A Fazer, Em Progresso e Concluído.
 
 Adiciona seção sobre uso do Kanban no README
+
+
+## Gestão de Mudanças
+
+Durante o desenvolvimento do projeto, foi simulada uma alteração no escopo inicial.
+Inicialmente, o sistema previa apenas o cadastro de tarefas. Como melhoria, foi
+considerada a possibilidade futura de incluir autenticação de usuários (login),
+visando maior controle e segurança do sistema.
+
 
