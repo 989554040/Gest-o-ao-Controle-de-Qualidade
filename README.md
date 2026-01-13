@@ -33,3 +33,5 @@ python app.py
 * Organização do Projeto (Kanban)
 O Kanban foi criado na aba Projects do repositório, utilizando metodologia ágil para organização das atividades, com colunas A Fazer, Em Progresso e Concluído.
 
+Adiciona seção sobre uso do Kanban no README
+
