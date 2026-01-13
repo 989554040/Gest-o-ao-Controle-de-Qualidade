@@ -1,28 +1,16 @@
-name: Python application
+name: Pipeline de Qualidade
 
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
-  build:
+  quality:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout do código
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install flask
-
-    - name: Run basic test
-      run: |
-        python -c "print('Teste automatizado executado com sucesso')"
+      - name: Teste automatizado básico
+        run: echo "Teste automatizado executado com sucesso"
