@@ -1,16 +1,16 @@
-name: Pipeline de Qualidade
+name: Pipeline Basico
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
-  quality:
+  teste:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout do código
+      - name: Checkout do repositorio
         uses: actions/checkout@v4
 
-      - name: Teste automatizado básico
-        run: echo "Teste automatizado executado com sucesso"
+      - name: Teste simples
+        run: echo "Pipeline executado com sucesso"
