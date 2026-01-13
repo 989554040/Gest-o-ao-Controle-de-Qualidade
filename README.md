@@ -27,8 +27,12 @@ Implementar uma funcionalidade essencial de um sistema, utilizando um CRUD (Crea
 
 * Execução
 1. Clone o repositório:
+ Para executar o sistema localmente, utilize o comando:
 bash
 python app.py
+
+
+
 
 * Organização do Projeto (Kanban)
 O Kanban foi criado na aba Projects do repositório, utilizando metodologia ágil para organização das atividades, com colunas A Fazer, Em Progresso e Concluído.
