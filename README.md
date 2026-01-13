@@ -44,4 +44,7 @@ Inicialmente, o sistema previa apenas o cadastro de tarefas. Como melhoria, foi
 considerada a possibilidade futura de incluir autenticação de usuários (login),
 visando maior controle e segurança do sistema.
 
+Essa mudança de escopo foi registrada e acompanhada no quadro Kanban disponível
+na aba Projects do repositório.
+
 
