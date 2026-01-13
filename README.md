@@ -30,4 +30,6 @@ Implementar uma funcionalidade essencial de um sistema, utilizando um CRUD (Crea
 bash
 python app.py
 
-* O Kanban foi criado na aba Projects do repositório, utilizando metodologia ágil para organização das atividades.
+* Organização do Projeto (Kanban)
+O Kanban foi criado na aba Projects do repositório, utilizando metodologia ágil para organização das atividades, com colunas A Fazer, Em Progresso e Concluído.
+
