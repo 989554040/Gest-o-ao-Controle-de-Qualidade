@@ -1,71 +1,53 @@
-# Gestão ao Controle de Qualidade
+*Descrição do Projeto
 
-* Descrição do Projeto
-Este projeto tem como objetivo o desenvolvimento de um sistema básico para gerenciamento de tarefas, aplicando conceitos de controle de qualidade e organização de projetos de software.
+Este projeto foi desenvolvido como parte da disciplina de Engenharia de Software, com o objetivo de aplicar, na prática, conceitos de metodologias ágeis, versionamento de código, controle de qualidade e gestão de mudanças.
 
-* Objetivo
-Implementar uma funcionalidade essencial de um sistema, utilizando um CRUD (Create, Read, Update, Delete), demonstrando o funcionamento de operações básicas de gerenciamento de dados.
+A solução consiste em uma API simples para gerenciamento de tarefas, permitindo criar, listar, atualizar e remover tarefas, simulando um sistema utilizado por equipes ágeis para organização do trabalho.
 
-* Metodologia Utilizada
-- Desenvolvimento em Python utilizando o framework Flask
-- Implementação de uma API REST
-- Código organizado e documentado com comentários em português
-- Utilização do GitHub para versionamento e organização do projeto
-- Uso do GitHub Projects para acompanhamento das atividades por meio de um quadro Kanban
+O projeto representa uma aplicação realista do uso do GitHub como ferramenta central de desenvolvimento ágil.
 
-* Funcionalidades
-- Criar tarefas
-- Listar tarefas
-- Atualizar tarefas
-- Excluir tarefas
+ Objetivo
 
-* Como Executar o Sistema
+Desenvolver um sistema básico de gerenciamento de tarefas que permita:
 
-* Pré-requisitos
-- Python 3 instalado
-- Biblioteca Flask
+Criar tarefas
 
-* Mudança de Escopo
+Visualizar tarefas cadastradas
 
-Foi adicionada a funcionalidade de **prioridade das tarefas**, permitindo classificar cada tarefa como Alta, Média ou Baixa.  
-Essa mudança melhora a organização das tarefas e o gerenciamento do backlog.
+Atualizar o status das tarefas
 
-Commit correspondente: `feat: adicionar campo de prioridade às tarefas para gestão de mudança`
+Remover tarefas concluídas ou inválidas
 
+Além disso, o projeto busca demonstrar:
 
-* Execução
-1. Clone o repositório:
- Para executar o sistema localmente, utilize o comando:
-bash
-python app.py
+Uso do Kanban para planejamento
 
-* Organização do Projeto (Kanban)
-O Kanban foi criado na aba Projects do repositório, utilizando metodologia ágil para organização das atividades, com colunas A Fazer, Em Progresso e Concluído.
+Boas práticas de commits
 
-Adiciona seção sobre uso do Kanban no README
+Automação de testes
 
+Integração Contínua com GitHub Actions
 
-* Gestão de Mudanças
+ *Metodologia Ágil Utilizada
 
-Durante o desenvolvimento do projeto, foi simulada uma alteração no escopo inicial.
-Inicialmente, o sistema previa apenas o cadastro de tarefas. Como melhoria, foi
-considerada a possibilidade futura de incluir autenticação de usuários (login),
-visando maior controle e segurança do sistema.
+Foi adotada a metodologia Kanban, utilizando o GitHub Projects para organização das atividades, com as seguintes colunas:
 
-Essa mudança de escopo foi registrada e acompanhada no quadro Kanban disponível
-na aba Projects do repositório.
+To Do (A Fazer)
 
+In Progress (Em Progresso)
 
-* Gestão de Mudança
+Done (Concluído)
 
-Durante o desenvolvimento do projeto, foi identificada a necessidade de priorizar tarefas críticas.
-Inicialmente, o sistema permitia apenas o cadastro de título e status.
+Essa abordagem permitiu visualizar o fluxo de trabalho, priorizar tarefas e acompanhar o progresso do projeto de forma contínua.
 
-Como mudança de escopo, foi adicionada a funcionalidade de **prioridade da tarefa**, permitindo classificar
-as tarefas como Alta, Normal ou Baixa, melhorando a organização do fluxo de trabalho.
+ *Tecnologias Utilizadas
 
-Essa mudança exigiu:
-- Atualização do modelo de tarefa
-- Adequação das rotas de criação e atualização
-- Atualização dos testes automatizados
+Python 3.13
 
+Flask – criação da API
+
+Pytest – testes automatizados
+
+Git & GitHub – versionamento e colaboração
+
+GitHub Actions – pipeline de Integração Contínua (CI)
