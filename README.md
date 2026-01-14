@@ -45,7 +45,7 @@ O Kanban foi criado na aba Projects do repositório, utilizando metodologia ági
 Adiciona seção sobre uso do Kanban no README
 
 
-## Gestão de Mudanças
+* Gestão de Mudanças
 
 Durante o desenvolvimento do projeto, foi simulada uma alteração no escopo inicial.
 Inicialmente, o sistema previa apenas o cadastro de tarefas. Como melhoria, foi
@@ -55,4 +55,17 @@ visando maior controle e segurança do sistema.
 Essa mudança de escopo foi registrada e acompanhada no quadro Kanban disponível
 na aba Projects do repositório.
 
+
+* Gestão de Mudança
+
+Durante o desenvolvimento do projeto, foi identificada a necessidade de priorizar tarefas críticas.
+Inicialmente, o sistema permitia apenas o cadastro de título e status.
+
+Como mudança de escopo, foi adicionada a funcionalidade de **prioridade da tarefa**, permitindo classificar
+as tarefas como Alta, Normal ou Baixa, melhorando a organização do fluxo de trabalho.
+
+Essa mudança exigiu:
+- Atualização do modelo de tarefa
+- Adequação das rotas de criação e atualização
+- Atualização dos testes automatizados
 
