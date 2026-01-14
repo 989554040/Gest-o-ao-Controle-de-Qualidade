@@ -51,3 +51,9 @@ Pytest – testes automatizados
 Git & GitHub – versionamento e colaboração
 
 GitHub Actions – pipeline de Integração Contínua (CI)
+
+Este projeto demonstra, de forma prática, a aplicação dos conceitos de Engenharia de Software, integrando planejamento, desenvolvimento, testes, versionamento e gestão de mudanças em um único fluxo de trabalho.
+
+O uso do GitHub como ferramenta central reforça a importância das boas práticas no desenvolvimento de software moderno.
+
+
